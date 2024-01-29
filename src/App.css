@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+  position: absolute;
+  background: linear-gradient(90deg, rgba(217, 183, 44, 1) 9%, rgba(0, 212, 255, 1) 100%);
+}
+
+.infinite {
+  background: linear-gradient(90deg, rgba(217, 183, 44, 1) 9%, rgba(0, 212, 255, 1) 100%);
+  text-align: -webkit-center;
+
+  p {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: max-content;
+    padding: 10px;
+  }
+}
+
+form {
+  border: 2px solid black;
+  font-size: xx-large;
+  width: min-content;
+  display: flex;
+  flex-direction: column;
+  padding: 27px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+input {
+  background-color: blanchedalmond;
+  padding-left: 5%;
+  margin-left: 10px;
+}
+
+.inputfield {
+  margin: 6px;
+  padding: 17px;
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputfield1 {
+  margin: 6px;
+  padding: 17px;
+  width: 280px;
+  display: flex;
+  justify-content: right;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 10px;
+}
+
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.userlist {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.userlis {
+  background: linear-gradient(90deg, rgba(217, 183, 44, 1) 9%, rgba(0, 212, 255, 1) 100%);
+  padding-bottom: 20px;
+}
+
+.title {
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.back {
+  margin-right: 70%;
+  height: auto;
+  padding: 12px;
+}
+
+select {
+  background-color: blanchedalmond;
+}
+
+.userlist td,
+.userlist th {
+  border: 1px solid #ddd;
+  padding: 8px;
+
+  button {
+    margin: 10px;
+  }
+}
+
+button {
+  background-color: blanchedalmond;
+  height: 6vh;
+  margin-top: 20px;
+  font-size: xx-large;
+  border-radius: 20px;
+}
+
+input,
+select {
+  border-radius: 20px;
+}
+
+.userlist tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.userlist tr:hover {
+  background-color: #ddd;
+}
+
+.userlist th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
